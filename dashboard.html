@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RumahIdaman - Jual Beli Properti</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    .carousel-item img {
+      height: 70vh; 
+      object-fit: cover; 
+      filter: brightness(0.7); 
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Vesakha Properti</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#properti">Properti</a></li>
+          <li class="nav-item"><a class="nav-link" href="#informasi">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=600&fit=crop" class="d-block w-100" alt="Rumah Mewah">
+        <div class="carousel-caption d-none d-md-block pb-5">
+          <h1 class="display-4 fw-bold">Temukan Rumah Impian Anda</h1>
+          <p class="lead">Koleksi properti premium dengan lokasi strategis dan harga terbaik di kelasnya.</p>
+          <a href="#properti" class="btn btn-primary btn-lg mt-3">Lihat Properti</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&h=600&fit=crop" class="d-block w-100" alt="Rumah Minimalis">
+        <div class="carousel-caption d-none d-md-block pb-5">
+          <h1 class="display-4 fw-bold">Desain Modern & Minimalis</h1>
+          <p class="lead">Nikmati kenyamanan hunian berkonsep masa kini yang ramah lingkungan.</p>
+          <a href="#kontak" class="btn btn-success btn-lg mt-3">Hubungi Agen</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://s.hdnux.com/photos/01/27/30/65/22908281/4/rawImage.jpg" class="d-block w-100" alt="Investasi Properti">
+        <div class="carousel-caption d-none d-md-block pb-5">
+          <h1 class="display-4 fw-bold">Investasi Masa Depan</h1>
+          <p class="lead">Pilih properti dengan nilai investasi yang terus naik setiap tahunnya.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Sebelumnya</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Selanjutnya</span>
+    </button>
+  </div>
+
+  <section id="properti" class="py-5 bg-light">
+    <div class="container my-5">
+      <h2 class="text-center mb-4 fw-bold">Properti Pilihan Kami</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=600&h=400&fit=crop" class="card-img-top" alt="Rumah 1">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Cluster Pesona Asri</h5>
+              <p class="text-primary fw-bold">Rp 1.250.000.000</p>
+              <p class="card-text text-muted">3 Kamar Tidur | 2 Kamar Mandi | Lb: 120m²</p>
+              <p class="card-text">Rumah siap huni dengan desain skandinavia, berlokasi di pusat kota.</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-outline-primary w-100">Detail Properti</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" class="card-img-top" alt="Rumah 2">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Villa Bukit Indah</h5>
+              <p class="text-primary fw-bold">Rp 3.500.000.000</p>
+              <p class="card-text text-muted">5 Kamar Tidur | 4 Kamar Mandi | Lb: 300m²</p>
+              <p class="card-text">Hunian eksklusif dengan pemandangan perbukitan yang asri dan udara sejuk.</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-outline-primary w-100">Detail Properti</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?w=600&h=400&fit=crop" class="card-img-top" alt="Rumah 3">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Townhouse Modern</h5>
+              <p class="text-primary fw-bold">Rp 850.000.000</p>
+              <p class="card-text text-muted">2 Kamar Tidur | 1 Kamar Mandi | Lb: 70m²</p>
+              <p class="card-text">Sangat cocok untuk keluarga muda. Fasilitas lengkap dan keamanan 24 jam.</p>
+            </div>
+            <div class="card-footer bg-white border-0 pb-3">
+              <a href="#" class="btn btn-outline-primary w-100">Detail Properti</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="informasi" class="py-5">
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop" class="img-fluid rounded shadow" alt="Agen Properti">
+        </div>
+        <div class="col-lg-6 px-lg-5">
+          <h2 class="fw-bold mb-4">Mengapa Membeli Lewat RumahIdaman?</h2>
+          <p class="lead text-muted mb-4">Kami berkomitmen untuk memberikan pengalaman jual beli properti yang aman, transparan, dan menguntungkan bagi Anda.</p>
+          
+          <div class="d-flex mb-3">
+            <div class="me-3 text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>
+            </div>
+            <div>
+              <h5 class="fw-bold">Legalitas Terjamin</h5>
+              <p class="text-muted">Seluruh properti yang kami jual telah melewati proses verifikasi dokumen dan bebas sengketa.</p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-3">
+            <div class="me-3 text-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-wallet-fill" viewBox="0 0 16 16"><path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2h-13z"/><path d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6z"/></svg>
+            </div>
+            <div>
+              <h5 class="fw-bold">Bantuan KPR</h5>
+              <p class="text-muted">Bekerja sama dengan berbagai bank ternama untuk memudahkan Anda mendapatkan persetujuan KPR.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="kontak" class="bg-dark text-white py-4 text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 RumahIdaman. Hak Cipta Dilindungi.</p>
+      <small class="text-muted">Jl. Contoh Alamat No. 123, Jakarta, Indonesia | Email: info@rumahidaman.com</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
